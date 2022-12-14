@@ -1,0 +1,1 @@
+[C:\$Recycle.Bin, C:\$WINDOWS.~BT, C:\$WinREAgent, C:\devlist.txt, C:\Documents and Settings, C:\DumpStack.log.tmp, C:\eSupport, C:\Finish.log, C:\hiberfil.sys, C:\Intel, C:\MSOCache, C:\pagefile.sys, C:\PerfLogs, C:\Program Files, C:\Program Files (x86), C:\ProgramData, C:\Recovery, C:\swapfile.sys, C:\System Volume Information, C:\Users, C:\Windows]
