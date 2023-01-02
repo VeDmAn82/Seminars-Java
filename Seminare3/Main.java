@@ -70,18 +70,18 @@ public class Main {
         listPlanets.add("Uranus");
         listPlanets.add("Uranus");
 
-        Iterator<String> list = listPlanets.iterator();
+        // Iterator<String> list = listPlanets.iterator();
 
-        String old = list.next();
+        // String old = list.next();
 
-        while (list.hasNext()) {
-            String next = list.next();
-            if (old.equals(next)) {
-                list.remove();
-            }
-            old = next;
-        }
-        System.out.println(listPlanets);
+        // while (list.hasNext()) {
+        //     String next = list.next();
+        //     if (old.equals(next)) {
+        //         list.remove();
+        //     }
+        //     old = next;
+        // }
+        // System.out.println(listPlanets);
         
         for (int i = 0; i < listPlanets.size(); i++) {
             if(i != listPlanets.size() - 1) {
@@ -95,7 +95,6 @@ public class Main {
                 System.out.println(listPlanets.get(i) + " - " + n);
             }
         }
-        System.out.println(listPlanets.get(listPlanets.size() - 1) + " - " + 1);
     }
      
     
@@ -112,7 +111,7 @@ public class Main {
         array.add("Home");
         array.add("Work!");
 
-        for (int i = 0; i < array.size(); ) {
+        for (int i = 0; i < array.size();) {
             if (array.get(i) instanceof Integer) {
                 array.remove(i);
             } else {
